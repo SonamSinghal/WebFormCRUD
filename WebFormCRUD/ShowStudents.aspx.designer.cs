@@ -33,15 +33,6 @@ namespace WebFormCRUD
         protected global::System.Web.UI.WebControls.TextBox NameTxt;
 
         /// <summary>
-        /// NameRequiredFieldValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator NameRequiredFieldValidator;
-
-        /// <summary>
         /// EmailLbl control.
         /// </summary>
         /// <remarks>
@@ -58,15 +49,6 @@ namespace WebFormCRUD
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox EmailTxt;
-
-        /// <summary>
-        /// EmailRequiredFieldValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator EmailRequiredFieldValidator;
 
         /// <summary>
         /// GenderLbl control.
@@ -105,6 +87,33 @@ namespace WebFormCRUD
         protected global::System.Web.UI.WebControls.Button CreateStudent;
 
         /// <summary>
+        /// UniFilter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox UniFilter;
+
+        /// <summary>
+        /// GenderFilter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox GenderFilter;
+
+        /// <summary>
+        /// ApplyFilter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ApplyFilter;
+
+        /// <summary>
         /// StudentsList control.
         /// </summary>
         /// <remarks>
@@ -112,41 +121,5 @@ namespace WebFormCRUD
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater StudentsList;
-
-        /// <summary>
-        /// NameTxtEdit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NameTxtEdit;
-
-        /// <summary>
-        /// EmailTxtEdit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTxtEdit;
-
-        /// <summary>
-        /// GenderRadioList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList GenderRadioList;
-
-        /// <summary>
-        /// SaveChanges control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SaveChanges;
     }
 }

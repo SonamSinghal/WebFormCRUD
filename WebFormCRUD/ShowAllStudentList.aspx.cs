@@ -11,11 +11,11 @@ namespace WebFormCRUD
 {
     public partial class ShowAllStudentList : System.Web.UI.Page
     {
-        private readonly ApplicationController _controller;
+        private readonly StudentController _controller;
 
         public Student Student = new Student();
 
-        public ShowAllStudentList(ApplicationController controller)
+        public ShowAllStudentList(StudentController controller)
         {
             _controller = controller;
         }
@@ -25,16 +25,16 @@ namespace WebFormCRUD
 
         }
 
-        protected void CreateStudent_Click(object sender, EventArgs e)
-        {
-            var student = new Student()
-            {
-                Name = NameTxt.Text,
-                Email = EmailTxt.Text,
-                Gender = MaleGender.Checked ? GenderEnum.Male : GenderEnum.Female
-            };
+        //protected void CreateStudent_Click(object sender, EventArgs e)
+        //{
+        //    var student = new Student()
+        //    {
+        //        Name = NameTxt.Text,
+        //        Email = EmailTxt.Text,
+        //        Gender = MaleGender.Checked ? GenderEnum.Male : GenderEnum.Female
+        //    };
 
-            _controller.CreateStudent(student);
-        }
+        //    _controller.CreateStudent(student);
+        //}
     }
 }

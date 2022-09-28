@@ -4,19 +4,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace WebFormCRUD.Model
+namespace WebFormCRUD.Model.Views
 {
-    public class Student
+    [Table("View StudentData")]
+    public class ShowStudentsView
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-
-        
-        public Guid GenderId { get; set; }
-
-        
-        public Guid CourseId { get; set; }
+        public string GenderTitle { get; set; }
+        public string CourseTitle { get; set; }
+        public string UniversityTitle { get; set; }
         public bool HasCertificate { get; set; }
     }
 }

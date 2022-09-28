@@ -5,10 +5,9 @@ using System.Web;
 
 namespace WebFormCRUD.Model
 {
-    public enum GenderEnum
+    public class University
     {
-        Male,
-        Female,
-        Other
+        public Guid Id { get; set; }
+        public string Title { get; set; }
     }
 }
